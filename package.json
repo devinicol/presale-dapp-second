@@ -1,6 +1,6 @@
 {
-  "name": "project",
-  "version": "1.0.5",
+  "name": "presale",
+  "version": "1.0.3",
   "private": true,
   "type": "module",
   "dependencies": {
@@ -44,14 +44,14 @@
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
     "request": "^2.88.2",
-    "snore-log": "2.1.2",
+    "swing-log": "1.0.0",
     "sqlite3": "^5.1.6",
     "web-vitals": "^1.0.1",
     "web3": "1.0.0-beta.55",
     "yarn": "^1.22.17"
   },
   "scripts": {
-    "start": "vite",
+    "start": "vite --port 3000",
     "build": "vite build",
     "serve": "vite preview",
     "test": "your-test-script-here",

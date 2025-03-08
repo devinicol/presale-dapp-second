@@ -3,7 +3,7 @@ import { NodeModulesPolyfillPlugin } from '@esbuild-plugins/node-modules-polyfil
 import react from '@vitejs/plugin-react-swc';
 import rollupNodePolyFill from 'rollup-plugin-polyfill-node';
 import { defineConfig, loadEnv, splitVendorChunkPlugin } from 'vite';
-import log from 'snore-log';
+import log from 'swing-log';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode }) => {
